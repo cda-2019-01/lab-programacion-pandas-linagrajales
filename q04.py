@@ -5,6 +5,6 @@
 import pandas as pd
 import numpy as np
 import itertools
-data = pd.read_csv("tbl0.tsv", sep="\t")
-c = sorted(data1['_c4'].unique())
+data = pd.read_csv("tbl1.tsv", sep="\t")
+c = sorted(data['_c4'].unique())
 print(str(c).upper())
