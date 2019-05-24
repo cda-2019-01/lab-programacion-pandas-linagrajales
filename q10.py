@@ -3,6 +3,9 @@
 ## separada por ',' de los valores de la columna _c4
 ## de la tabla tbl1.tsv
 ## 
+import pandas as pd
+import numpy as np
+import itertools
 data1 = pd.read_csv("tbl1.tsv", sep="\t")
 c0 = sorted(data1['_c0'].unique())
 lista = []
