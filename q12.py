@@ -11,6 +11,3 @@ data2 = pd.read_csv("tbl2.tsv", sep="\t")
 suma = data2.groupby('_c0').sum()['_c5b']
 data['suma']= suma
 data.groupby('_c1').sum()['suma']
-
-#otra forma con el txt
-data2.groupby('_c5a').sum()['_c5b']
